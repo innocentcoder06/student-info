@@ -1,0 +1,91 @@
+@charset "ISO-8859-1";
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background: #615756;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	flex-direction: row;
+}
+
+form {
+	position: absolute;
+	background: #FFF;
+	padding: 16px;
+	top: 0px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px; 
+	display: flex;
+	flex-direction: row;
+}
+
+input[type="number"] {
+	height: 32px;
+	border: solid 1px lightgrey;
+	border-radius: 0px;
+	outline: none;
+	box-shadow: none;
+	width: 250px;
+	padding-left: 12px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="submit"] {
+	height: 32px;
+	background: #539987;
+	width: max-content;
+	padding: 0px 16px;
+	outline: none;
+	border: none;
+	border-radius: 0px;
+	color: #FFF;
+	box-shadow: none;
+}
+
+.table-div {
+	padding: 12px;
+	background: #FFF;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.table-title {
+	font-size: 24px;
+	text-decoration: underline;
+	margin-bottom: 12px;
+}
+
+table {
+	border: solid 1px lightgrey;
+	border-radius: 4px;
+}
+
+table th {
+	padding: 8px 12px;
+	background: #539987;
+	color: #FFF;
+}
+
+table td {
+	padding: 8px 12px;
+	text-align: center;
+	border: solid 1px lightgrey;
+}
+
+
